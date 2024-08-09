@@ -1,0 +1,27 @@
+{
+  "name": "gestor",
+  "version": "1.0.0",
+  "description": "Password Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "vida",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-jest": "^28.7.0",
+    "globals": "^15.9.0",
+    "jest": "^27.5.1"
+  }
+}
